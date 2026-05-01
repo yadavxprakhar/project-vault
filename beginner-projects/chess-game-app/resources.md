@@ -1,16 +1,16 @@
 # Resources for Chess Game App
 
 ## 📺 Video Tutorials
-- [Build a Chess Game with JavaScript (Step by Step)](https://www.youtube.com/watch?v=EFJg4nUg9sM) - Code with Ania Kubów: Complete tutorial using HTML/CSS/JS with drag and drop
-- [JavaScript Chess Tutorial for Beginners](https://www.youtube.com/watch?v=3m00gqLhyQE) - Kenny Yip Coding: Building chess from scratch with move validation logic
-- [Chess Game in JavaScript (With AI)](https://www.youtube.com/watch?v=fJIsqZmQVZQ) - Code Bro: Adding computer opponent using minimax algorithm
-- [How to Build a Chess Engine in JavaScript](https://www.youtube.com/watch?v=U4ogK0MIzqk) - Web Dev Simplified: Understanding chess logic and algorithms
+- [Master JavaScript Drag and Drop with Chess Example](https://www.youtube.com/watch?v=EFJg4nUg9sM) - Code with Ania Kubów: Complete tutorial using HTML/CSS/JS with drag and drop
+- [How to Create a Chess Game Using JavaScript with CSS and HTML](https://www.youtube.com/watch?v=UrVHlY2NGmg) - Full step-by-step vanilla JS chess game tutorial with move logic
+- [Code a Chess Game with Stockfish API – JavaScript Tutorial](https://www.youtube.com/watch?v=fJIsqZmQVZQ) - freeCodeCamp / Code Bro style: Adding computer opponent using a strong chess engine
+- [Build a React.js Chess Game With AI BOT Using Minimax Algorithm](https://www.youtube.com/watch?v=FXHNYQAxSs4) - Modern implementation covering chess logic and algorithms
 
 ## 📚 Written Tutorials
-- [Build a Chess Game with JavaScript Tutorial](https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/) - FreeCodeCamp: Step-by-step guide to chess AI (good for understanding game logic)
+- [Building a Web-based Chess Game with React and Chess.js](https://www.geeksforgeeks.org/reactjs/building-a-web-based-chess-game-with-react-and-chess-js/) - GeeksforGeeks: Step-by-step guide to chess AI and game logic
 - [Creating a Chess Game Using React and chess.js](https://blog.logrocket.com/creating-chess-game-react-chessboard-js/) - LogRocket: Modern React implementation approach
-- [JavaScript Chess Program Tutorial](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXJ...&q=https%3A%2F%2Fgithub.com%2Fkennyyip-coding%2Fchess-javascript) - Companion code to Kenny Yip's tutorial
-- [Chess.js Documentation Guide](https://github.com/jhlywa/chess.js/blob/master/README.md) - Official chess.js API reference and examples
+- [chess-javascript](https://github.com/kennyyip-coding/chess-javascript) - Companion code and implementation from Kenny Yip Coding style tutorials
+- [Chess.js Documentation](https://jhlywa.github.io/chess.js/) - Official chess.js API reference, examples, and guide
 - [Chessboard.js Documentation](https://chessboardjs.com/docs) - Official docs for the chessboard UI library
 
 ## 🔧 Tools & Libraries
@@ -18,15 +18,15 @@
 - [chessboard.js](https://chessboardjs.com/) - JavaScript library for rendering chessboards - **RECOMMENDED**
 - [react-chessboard](https://github.com/Clariity/react-chessboard) - React component for chessboard UI (if using React)
 - [cm-chessboard](https://github.com/shaack/cm-chessboard) - Modern, ES6 modular chessboard with animations
-- [Stockfish.js](https://github.com/nmrugg/stockfish.js) - JavaScript port of Stockfish chess engine (for AI opponent)
+- [stockfish.js](https://github.com/nmrugg/stockfish.js) - JavaScript port of Stockfish chess engine (for strong AI opponent)
 - [SweetAlert2](https://sweetalert2.github.io/) - Beautiful modal dialogs for pawn promotion, game over alerts
 
 ## 💻 GitHub Repositories
 - [chess.js](https://github.com/jhlywa/chess.js) - The definitive chess logic library for JavaScript
 - [chessboard.js](https://github.com/oakmac/chessboardjs) - Popular chessboard UI library
-- [Chess-Game-JavaScript](https://github.com/kennyyip-coding/chess-javascript) - Complete vanilla JS implementation with tutorial
-- [JavaScript-Chess](https://github.com/CodeExplainedRepo/JavaScript-Chess) - Simple chess game implementation
-- [React-Chess](https://github.com/TomCasavant/React-Chess) - React-based chess game example
+- [chess-javascript](https://github.com/kennyyip-coding/chess-javascript) - Complete vanilla JS implementation with tutorial
+- [Javascript-Chess-Game](https://github.com/AhmadAlkholy/Javascript-Chess-Game) - Complete object-oriented JavaScript chess game
+- [React-Chess](https://github.com/Clariity/react-chessboard) - React chessboard component (widely used base for full games)
 - [chess-ai](https://github.com/lhartikk/simple-chess-ai) - Simple chess AI implementation (minimax algorithm)
 
 ## 📖 Learning Resources
