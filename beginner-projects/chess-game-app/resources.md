@@ -1,7 +1,7 @@
 # Resources for Chess Game App
 
 ## 📺 Video Tutorials
-- [Build a Chess Game with JavaScript (Step by Step)](https://www.youtube.com/watch?v=Qv0fvm5BeKI) - Code with Ania Kubów: Complete tutorial using HTML/CSS/JS with drag and drop
+- [Build a Chess Game with JavaScript (Step by Step)](https://www.youtube.com/watch?v=EFJg4nUg9sM) - Code with Ania Kubów: Complete tutorial using HTML/CSS/JS with drag and drop
 - [JavaScript Chess Tutorial for Beginners](https://www.youtube.com/watch?v=3m00gqLhyQE) - Kenny Yip Coding: Building chess from scratch with move validation logic
 - [Chess Game in JavaScript (With AI)](https://www.youtube.com/watch?v=fJIsqZmQVZQ) - Code Bro: Adding computer opponent using minimax algorithm
 - [How to Build a Chess Engine in JavaScript](https://www.youtube.com/watch?v=U4ogK0MIzqk) - Web Dev Simplified: Understanding chess logic and algorithms
