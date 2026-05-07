@@ -154,9 +154,10 @@ func (ch *ConsistentHash) GetNode(key string) string {
 
     return ch.ring[ch.sortedKeys[idx]]
 }
+```
 
 ###  📁 File Chunking Example
-
+```
 func chunkFile(filePath string, chunkSize int64) ([]Chunk, error) {
     file, err := os.Open(filePath)
     if err != nil {
@@ -193,9 +194,10 @@ func chunkFile(filePath string, chunkSize int64) ([]Chunk, error) {
 
     return chunks, nil
 }
+```
 
 ### 🔄 Replication Example
-
+```
 func replicateChunk(chunk Chunk, nodes []Node, replicationFactor int) error {
     var wg sync.WaitGroup
     errors := make(chan error, replicationFactor)
@@ -221,9 +223,10 @@ func replicateChunk(chunk Chunk, nodes []Node, replicationFactor int) error {
 
     return nil
 }
+```
 
 ### 🗺️ Metadata Management Example
-
+```
 type FileMetadata struct {
     FileID      string
     FileName    string
@@ -255,9 +258,10 @@ func storeMetadata(client *clientv3.Client, metadata FileMetadata) error {
     _, err = client.Put(ctx, "/files/"+metadata.FileID, string(data))
     return err
 }
+```
 
 ### 🧪 Chaos Testing Example
-
+```
 
 // Simulate node failure during operation
 func TestNodeFailureDuringUpload(t *testing.T) {
@@ -284,3 +288,4 @@ func TestNodeFailureDuringUpload(t *testing.T) {
     downloaded := cluster.DownloadFile(file.ID)
     assert.Equal(t, file.Checksum, downloaded.Checksum)
 }
+```
