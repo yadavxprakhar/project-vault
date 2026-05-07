@@ -113,8 +113,7 @@
 ┌───▼────┐ ┌──▼─────┐ ┌──▼─────┐ ┌──▼─────┐
 │Postgres│ │MongoDB │ │Postgres│ │ Redis │
 └────────┘ └────────┘ └────────┘ └────────┘
-```
-text
+
 
      Message Broker (RabbitMQ / Kafka)
 ┌──────────────────────────────────────┐
@@ -124,8 +123,7 @@ Service Discovery (Consul / Eureka / etcd)
 Distributed Tracing (Jaeger / Zipkin)
 Centralized Logging (ELK / Loki)
 Monitoring (Prometheus + Grafana)
-
-text
+```
 
 
 ## 🚀 Docker Compose Example
@@ -533,7 +531,6 @@ spec:
           initialDelaySeconds: 5
           periodSeconds: 5
 
----
 apiVersion: v1
 kind: Service
 metadata:
@@ -547,7 +544,6 @@ spec:
     targetPort: 3000
   type: ClusterIP
 
----
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -566,7 +562,7 @@ spec:
       target:
         type: Utilization
         averageUtilization: 70
-text
+
 
 ```
 
