@@ -257,7 +257,7 @@ w ← w - α * m/(√v + ε)
 ```
 
 ### 🎯 Learning Path
-
+```
 Week 1: Linear algebra & calculus fundamentals
 Week 2: Study MicroGrad implementation
 Week 3: Build your own Tensor class
@@ -268,9 +268,10 @@ Week 7: Build neural network module
 Week 8: Train on real datasets (MNIST, CIFAR)
 Week 9: Add convolutional layers
 Week 10: Advanced features (batch norm, dropout)
+```
 
 ### 💡 Pro Tips for Implementation
-
+```
 Start with scalars, then vectors, then matrices
 Use numerical gradient checking to verify backprop
 Start simple (dense layers) before CNNs
@@ -279,9 +280,9 @@ Test operations individually before integration
 Use small datasets first for fast iteration
 Profile code to find bottlenecks
 Read PyTorch source for reference
-
+```
 ### 🔗 Connection to Deep Learning
-
+```
 This framework forms the foundation for:
 
 Image classification (CNNs + your framework)
@@ -289,4 +290,4 @@ Language models (Transformers + your framework)
 Reinforcement learning (policy gradients + your framework)
 Generative models (GANs, VAEs + your framework)
 text
-
+```
