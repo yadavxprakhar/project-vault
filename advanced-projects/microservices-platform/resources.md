@@ -97,6 +97,7 @@
 ## 📚 Architecture Diagrams & Examples
 
 ### Typical Microservices Architecture
+```
 ┌─────────────────────────────────────────────────────────┐
 │ API Gateway │
 │ (Kong / NGINX / Traefik) │
@@ -112,7 +113,7 @@
 ┌───▼────┐ ┌──▼─────┐ ┌──▼─────┐ ┌──▼─────┐
 │Postgres│ │MongoDB │ │Postgres│ │ Redis │
 └────────┘ └────────┘ └────────┘ └────────┘
-
+```
 text
 
      Message Broker (RabbitMQ / Kafka)
@@ -291,8 +292,10 @@ server.bindAsync(
     server.start();
   }
 );
-📊 Event-Driven Communication (RabbitMQ)
-TypeScript
+```
+
+### 📊 Event-Driven Communication (RabbitMQ)
+```TypeScript
 
 // event-publisher.ts
 import amqp from 'amqplib';
@@ -348,8 +351,10 @@ subscriber.subscribe('OrderCreated', async (order) => {
   console.log('Processing payment for order:', order.id);
   await processPayment(order);
 });
-🛡️ Circuit Breaker Pattern
-TypeScript
+```
+
+### 🛡️ Circuit Breaker Pattern
+```TypeScript
 
 // circuit-breaker.ts
 enum CircuitState {
@@ -420,8 +425,10 @@ async function callExternalService() {
     return response.json();
   });
 }
-📈 Distributed Tracing (OpenTelemetry)
-TypeScript
+```
+
+### 📈 Distributed Tracing (OpenTelemetry)
+```TypeScript
 
 import { NodeTracerProvider } from '@opentelemetry/sdk-trace-node';
 import { JaegerExporter } from '@opentelemetry/exporter-jaeger';
@@ -468,8 +475,10 @@ async function createOrder(userId: string, items: any[]) {
     span.end();
   }
 }
-☸️ Kubernetes Deployment Example
-YAML
+```
+
+### ☸️ Kubernetes Deployment Example
+```YAML
 
 # order-service-deployment.yaml
 apiVersion: apps/v1
@@ -559,6 +568,5 @@ spec:
         averageUtilization: 70
 text
 
-
----
+```
 
