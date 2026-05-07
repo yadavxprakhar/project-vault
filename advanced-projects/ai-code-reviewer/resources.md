@@ -146,9 +146,10 @@ class CodeAnalyzer(ast.NodeVisitor):
 analyzer = CodeAnalyzer()
 analyzer.visit(tree)
 print(analyzer.issues)
+```
 
-### 🤖 GPT-4 Code Review Example (Python)
-
+### 🤖 GPT-4 Code Review Example 
+```Python
 from openai import OpenAI
 
 client = OpenAI(api_key="your-api-key")
@@ -176,9 +177,10 @@ def review_code_with_gpt(code: str, language: str) -> dict:
     )
     
     return response.choices[0].message.content
+```
 
-### 📊 GitHub Integration Example (JavaScript)
-
+### 📊 GitHub Integration Example 
+```JavaScript
 // Using Octokit to comment on PR
 const { Octokit } = require('@octokit/rest');
 
@@ -201,9 +203,10 @@ async function addReviewComment(owner, repo, pullNumber, issues) {
     comments
   });
 }
+```
 
-### 🔍 Tree-sitter Example (JavaScript)
-
+### 🔍 Tree-sitter Example 
+```JavaScript
 const Parser = require('tree-sitter');
 const JavaScript = require('tree-sitter-javascript');
 
@@ -241,9 +244,9 @@ function findIssues(node) {
 
 const issues = findIssues(tree.rootNode);
 console.log(issues);
-
-### 📈 Complexity Metrics Example (Python)
-
+```
+### 📈 Complexity Metrics Example 
+```Python
 # Calculate cyclomatic complexity
 def calculate_complexity(tree):
     complexity = 1  # Base complexity
@@ -272,4 +275,4 @@ def complex_function(x):
 tree = ast.parse(code)
 complexity = calculate_complexity(tree)
 print(f"Cyclomatic Complexity: {complexity}")
-
+```
