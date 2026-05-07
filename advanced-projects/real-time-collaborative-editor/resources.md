@@ -131,10 +131,10 @@ provider.awareness.on('change', () => {
   console.log('Users online:', states.size);
 });
 
----
+```
 
-### 🔧 ProseMirror Schema Example (JavaScript)
-
+### 🔧 ProseMirror Schema Example
+```JavaScript
 import { Schema } from 'prosemirror-model';
 
 const schema = new Schema({
@@ -170,9 +170,10 @@ const schema = new Schema({
     },
   },
 });
+```
 
-### 🎨 Live Cursors Implementation (TypeScript)
-
+### 🎨 Live Cursors Implementation 
+```TypeScript
 interface CursorState {
   userId: string;
   userName: string;
@@ -219,10 +220,10 @@ function renderCursors(awareness: Awareness, editor: Editor) {
   });
 }
 
----
+```
 
-### 🔄 Conflict Resolution Example (CRDT) (TypeScript)
-
+### 🔄 Conflict Resolution Example (CRDT) 
+```TypeScript
 // Yjs automatically handles conflicts with CRDTs
 // No manual conflict resolution needed!
 
@@ -250,9 +251,10 @@ Y.applyUpdate(doc2, state1);
 // Both documents now have the same state (conflict-free!)
 console.log(text1.toString()); // "HelloWorld" or "WorldHello" (deterministic)
 console.log(text2.toString()); // Same as text1
+```
 
-### 📊 Version History Implementation (TypeScript)
-
+### 📊 Version History Implementation 
+```TypeScript
 interface DocumentVersion {
   id: string;
   timestamp: Date;
@@ -300,10 +302,10 @@ class VersionHistory {
   }
 }
 
----
+```
 
-### 🌐 WebSocket Server Example (Yjs) (TypeScript)
-
+### 🌐 WebSocket Server Example (Yjs) 
+```TypeScript
 // server.ts
 import { WebSocketServer } from 'ws';
 import * as Y from 'yjs';
@@ -361,3 +363,4 @@ async function loadDocument(docId: string) {
   
   return doc;
 }
+```
